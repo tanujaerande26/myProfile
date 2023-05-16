@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ul {
+            list-style: none;
+          }
+          
+          ul li::before {
+            content: "\2022";
+            color: rgb(8, 8, 8);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+          }
+          ul{
+            background-color:pink;
+        }
+    </style>
 </head>
 <body>
     <h2><b>Profile Photo:</b></h2>
@@ -25,13 +42,13 @@
         <li>Mother Name:Manika Sharma</li>
     </ul>
    </details>
-   <details>
-    <summary>Hobbies</summary>
-    <ul>
-        <li>Reading</li>
-        <li>Dancing</li>
-    </ul>
-   </details>
    
+    <h3>Hobbies</h3>
+    <ul>
+        <li type="square">Reading</li>
+        <li type="square">Dancing</li>
+        <li type="square">Watching Move</li>
+    </ul>
+ 
 </body>
 </html>

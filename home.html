@@ -5,19 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto Slab', serif;
+        }
+
+        
+        iframe {
+          height: 500px;
+          width: 900px;
+          border: 1px solid black;
+        }
+        header {
+          background-color: rgb(4, 81, 87);
+          height: 30px;
+          padding-top: 10px;
+        }
+        header i{
+            color: aliceblue;
+        }
+        span {
+          color: rgb(247, 247, 247);
+        }
+        
+        ul {
+          list-style: none;
+        }
+        
+        ul li::before {
+          content: "\2022";
+          color: rgb(8, 8, 8);
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+          list-style-type: circle;
+          
+          
+        
+ }
+
+        .head{
+            color: rgb(20, 21, 20);
+            background-color: rgb(106, 230, 235);
+            font-family: 'Roboto Slab', serif;
+        }
+        .angular{
+            color:red;
+            
+            font-size: 1.2rem;
+        }
+        ul{
+            background-color:pink;
+        }
+        
+            </style>
+    
 </head>
 <body>
-    <h2>Professional Summary </h2>
+    <h2 class="head">Career Objectives</h2>
+        <p>to work in organaization where i can learn and grow my skills and help organaization growth</p>
+        <h2 class="head">Professional Summery</h2>
+    <!-- <h2>Professional Summary </h2> -->
     <ul>
-        <li>Having 1 years of experience in developing single page web Application using Angular 8,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
-        <li>Experience on working with version control system-GIT and GitHub</li>
-        <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
-        <li>Experience working with JIRA for user Stories and bug tracking</li>
-        <li>working exposure on ID's like VS code and Notepad++</li>
-        <li>Good working experience under Agile methodologies environment</li>
-        <li>Experience in using Chrom Developer Tool for Debugging and Troubleshooting the code</li>
-         <li>Knowledge of NodeJS</li>
-         <li>Ability to work with people at all levels in the program</li>
+        <li class="techStack">Having 1 years of experience in developing single page web Application using <span class="angular">Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
+        <li class="techStack">Experience on working with version control system-GIT and GitHub</li>
+        <li class="techStack">Strong Debugging & Troubleshooting code experience using Chrome Developer Tool</li>
+        <li class="techStack">Experience working with JIRA for user Stories and bug tracking</li>
+        <li class="techStack">working exposure on ID's like VS code and Notepad++</li>
+        <li class="techStack" >Good working experience under Agile methodologies environment</li>
+        <li class="techStack">Experience in using Chrom Developer Tool for Debugging and Troubleshooting the code</li>
+         <li class="techStack">Knowledge of NodeJS</li>
+         <li class="techStack">Ability to work with people at all levels in the program</li>
     </ul>
+    
 </body>
 </html>
